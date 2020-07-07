@@ -1,0 +1,19 @@
+button {
+  display: block;
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &.primary {
+    background-color: lightgreen;
+    border: 1px solid darkgreen;
+    color: grey;
+  }
+
+  &.secondary {
+    background-color: red;
+    border: 1px solid darkred;
+    color:white;
+  }
+}

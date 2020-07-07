@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-design-system';
+
+  onDoubleClick(type: string) {
+    console.log(`double clicked: ${type}`)
+  }
 }
